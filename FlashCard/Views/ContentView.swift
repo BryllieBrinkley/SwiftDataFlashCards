@@ -6,9 +6,10 @@ The main view that contains the majority of the app's content.
 */
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
-    @State private var cards: [Card] = SampleDeck.contents
+    @Query private var cards: [Card] // use query to display models managed by SwiftData in the UI
     @State private var editing = false
     @State private var navigationPath: [Card] = []
 
@@ -33,4 +34,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .frame(minWidth: 500, minHeight: 500)
+        .modelContainer(previewContainer)
 }
