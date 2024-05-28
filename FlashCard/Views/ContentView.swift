@@ -12,6 +12,7 @@ struct ContentView: View {
     @Query private var cards: [Card] // use query to display models managed by SwiftData in the UI
     @State private var editing = false
     @State private var navigationPath: [Card] = []
+    @Environment(\.modelContext) private var modelContext
 
     var body: some View {
         NavigationStack(path: $navigationPath) {
@@ -19,7 +20,7 @@ struct ContentView: View {
                 withAnimation { navigationPath.append(card) }
             } addCard: {
                 let newCard = Card(front: "Sample Front", back: "Sample Back")
-                // save card
+                modelContext.insert(newCard) // save card
                 withAnimation {
                     navigationPath.append(newCard)
                     editing = true
