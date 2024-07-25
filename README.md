@@ -31,4 +31,5 @@ SwiftDataFlashcards, built using SwiftUI and SwiftData is a simple yet powerful 
 
 Clone the repository and open `SwiftFlashcards.xcodeproj` in Xcode.
 
-** Running on My Mac as the run destination is preferred
+** Running on My Mac as the run destination is preferred,
+** If some files are highliughted in red text when you clone the project or download as a zip, those files can be deleted and project should build successfully.
