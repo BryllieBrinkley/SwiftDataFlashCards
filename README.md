@@ -16,17 +16,19 @@ SwiftDataFlashcards, built using SwiftUI and SwiftData is a simple yet powerful 
 ## Usage
 
 1. Creating Decks
-   - Tap on the "+" button to create a new deck.
-   - Name your deck and start adding flashcards.
+   - Tap on the "+" button (or New Document button on macOS) to create a new deck.
+   - Start adding flashcards
 
 2. Studying Flashcards
    - Select a deck to enter study mode.
    - Swipe through flashcards to see the front and back.
 
 3. Managing Decks
-   - Long press on a deck to rename or delete it.
+   - Ability to rename or delete decks
    - Edit flashcards within each deck.
 
 ## Installation
 
 Clone the repository and open `SwiftFlashcards.xcodeproj` in Xcode.
+
+** Running on My Mac as the run destination is preferred
