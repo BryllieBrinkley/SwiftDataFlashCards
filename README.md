@@ -1,6 +1,6 @@
 # SwiftDataFlashcards
 
-SwiftDataFlashcards, built using SwiftUI and SwiftData is a simple yet powerful iOS app that allows users to create, manage, and study flashcards.
+SwiftDataFlashcards, built using SwiftUI and SwiftData, is a simple yet powerful iOS app that allows users to create, manage, and study flashcards.
 
 ## Features
 
